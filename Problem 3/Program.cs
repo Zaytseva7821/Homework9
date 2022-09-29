@@ -20,6 +20,6 @@ int Ackermann (int m, int n)
     }
     return Ackermann(m-1, Ackermann(m, n-1));
 }
-int m = DataEntry("Введите значение m");
+int м = DataEntry("Введите значение m");
 int n = DataEntry("Введите значение n");
 System.Console.WriteLine($"A({m},{n}) = {Ackermann(m,n)}");

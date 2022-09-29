@@ -34,6 +34,5 @@ if (N<M)
     N = M;
     M = temp;
 }
-int sum = N-M;
 System.Console.Write($"Сумма чисел от {M} до {N} = ");
 SumFromMToN(M, N, 0);
